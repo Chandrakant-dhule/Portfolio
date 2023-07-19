@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal portfolio website - Chandrakant Dhule</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/2ca50ffc43.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+           
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Software Engineer</p>
+          <h1>Hi, I'm <br><span>Chandrakant</span> Dhule</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- --- About Section --- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="user.jpeg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About me</h1>
+            <p>
+                As a Information Technology enthusiast interested in learning different technologies around web development, I am passionate about learning new skills and love to contribute these skills to team projects by solving real-life problems and getting reviews on them.
+                Take a look at my portfolio and don't hesitate to reach out.Together, we can create digital solutions that leave a lasting impresion and embark on thrilling adventures along the way.
+            </p>
+
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Volunteering')">
+                Volunteering
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li>
+                  <span>Web development : </span> <br />
+                  HTML, CSS, Js, Bootstrap
+                </li>
+                <li>
+                  <span>Backend : </span> <br />
+                  Java, C, C++
+                </li>
+                <li>
+                  <span>Database Management System: </span> <br />
+                  SQL
+                </li>
+                <li>
+                  <span>database tool : </span> <br />
+                  PowerBI
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li>
+                  <span>Web developer Intern (Txon): </span><br />Jan2023-Feb–2023<br />
+                  I was able to learn about front-end technologies that helped
+                  me improve my front-end development skills.<br />
+                  Tech Stack: Html | CSS 
+                </li>
+                <li>
+                  <span>EngineerCore Associated with IIIT Allahabad : </span><br />
+                  Java Programming Intern 2023– Ongoing <br />Key responsibilities:
+                  Collaborated with team members to identify project requirements and contribute 
+                  to the design and implementation process.
+                </li>
+            </ul>
+        </div>
+                <div class="tab-contents" id="Volunteering">
+                    <ul>
+                <li>
+                  <span>NGO Volunteering </span
+                  ><br />10 jun-10 july 2023 <br />
+                  Rotract West Nagpur NGO,
+                  volunteers to teach a Orfan Children and raise
+                  funds to provide food for those in need.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>B-tech / Information Technology : </span><br />GHRCE Nagpur
+                  <br />
+                  2020 – 2024 | CGPA: 8.64
+                </li>
+                <li>
+                  <span>HSC(XII) / Science : </span><br />
+                  Late N.M. College Marsul, Pusad | Yavatmal <br />
+                  2018-2020
+                </li>
+                <li>
+                  <span>SSC(XI): </span><br />
+                  Higher Secondary school M.M. School, Pusad <br />
+                  2015-2018
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- --- Projects --- -->
+
+<div id="project">
+    <div class="container">
+        <h1 class="subtitle"> My Projects</h1>
+        <div class="work-list">
+            <div class="work"> 
+                <img src="vehical1.jpg" alt="">
+                <div class="layer"> 
+                    <h3> A review on designing of vehicle detection.  </h3>
+                    <p>Developing a vehicle detection system was a fascinating journey. It involved leveraging computer vision techniques to accurately identify and track vehicles, paving the way for enhanced safety and intelligent transportation solutions.
+                     March 23-April 23<br> <br> Tech Stack: Python </p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work"> 
+                <img src="veg1.jpg" alt="">
+                <div class="layer"> 
+                    <h3> Veg Mart Website </h3>
+                    <p> Developed a project for Veg Mart, focusing on creating an online
+                         platform for vegetable and grocery shopping.
+                         Nov 22 – Dec 22<br> <br>  Tech Stack: HTML ,CSS, Js
+                       </p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work"> 
+                <img src="bookshelf.jpg" alt="">
+                <div class="layer"> 
+                    <h3> Library Book issue and return system</h3>
+                    <p>Creating an Library Book issue and return system was an exciting and challenging experience.. Jan 23-Feb 23<br> <br> Tech Stack: Java Programming</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Chandrakant-dhule" target="_blank" class="btn"> see more</a>
+    </div>
+</div>
+
+<!-- --- Contact Info --- -->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="subtitle"> Contact <Menu></Menu></h1>
+        <p><i class="fas fa-envelope"></i>dhulekrushnkant@gmail.com</p>
+        <p><i class="fas fa-phone-square-alt"></i>9284067139</p>
+        <div class="social-icon">
+          <a href="https://www.linkedin.com/in/chandrakant-dhule-195013216" target="_blank"> <i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Chandrakant-dhule" target="_blank"> <i class="fa fa-github-square" aria-hidden="true"></i>
+          </i></a>
+        </div>
+        <a href="Chandrakant Dhule Resume (1).pdf" download class="btn btn2">Download Resume</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Enter your Name" required>
+          <input type="email" name="Email" placeholder="Enter your Email" required>
+          <textarea name="Message"  rows="6" placeholder="Enter the Message"></textarea> 
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id ="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p> copyright ©  chandrakantdhule</p>
+  </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxG6L1yaYz-VSTrkYc458mOTH4-yFaZi-dH2WaYKTbC-H1YTT_6eob3-yhZ31CzaxVIKQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Thank you for filling the form"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+  </body>
+</html>
